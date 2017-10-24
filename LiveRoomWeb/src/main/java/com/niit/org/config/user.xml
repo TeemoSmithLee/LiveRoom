@@ -14,10 +14,15 @@ getUser-用于登陆中获取用户密码以判断输入密码正误的SQL语句
   
 <mapper namespace="com.niit.org.mapper.IUser">
 	<select id="registerUser" resultType="com.niit.org.bean.User">
-     insert into user(username,password,dscp) values(#{username},#{password},#{dscp})
+     	insert into user(username,password,dscp) values(#{username},#{password},#{dscp})
     </select>
-  <select id="getUser" resultType="com.niit.org.bean.User">
-    select * from user where username=#{username}
+	<select id="getUser" resultType="com.niit.org.bean.User">
+    	select * from user where username=#{username}
     </select> 
-
+	<select id="getAll" resultType="com.niit.org.bean.User">
+		select * from user
+	</select>
+	<select id="updateUser" resultType="com.niit.org.bean.User">
+		update user set password=#{password},dscp=#{dscp} where id=#{id}
+	</select>
 </mapper>

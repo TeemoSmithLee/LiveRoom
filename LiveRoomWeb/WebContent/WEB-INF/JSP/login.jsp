@@ -30,5 +30,7 @@ Edit by Teemo
 <label for="password">Password:</label><input type="text" id="password" name="password" />
 <input type="submit" value="login" />
 </form>
+
+<a href="http://localhost:8080/LiveRoomWeb/updateUserInfo">updateUserInfo</a>
 </body>
 </html>

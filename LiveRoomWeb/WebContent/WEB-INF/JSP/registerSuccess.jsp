@@ -11,10 +11,10 @@ Edit by Teemo
 
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>RegisterSuccess</title>
 </head>
 <body>
-<h>Register Successfully..</h>
+<h1>Register Successfully..</h1>
 </body>
 </html>
